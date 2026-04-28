@@ -13,15 +13,15 @@ if valorSaque > 0:
     
     #Verifica se depois do saque o saldo continua positivo
     if saldoNovo > 0:
-        print("Saque concluído, seu saldo está positivo")
+        print(f"Saque concluído no valor de {valorSaque}, seu saldo está positivo")
     
     #Verifica se o saldo ficou negativo para usar o cheque especial
     elif saldoNovo < 0:
-        print("Saque concluído, entrou no cheque especial")
+        print(f"Saque concluído no valor de {valorSaque}, entrou no cheque especial")
     
     #Verifica se o saldo ficou zerado
     elif saldoNovo == 0:
-        print("Saque concluído, saldo zerado")
+        print(f"Saque concluído no valor de {valorSaque}, saldo zerado")
 
 #Caso o valor do saque seja inválido por estar zerado ou negativo
 else:
