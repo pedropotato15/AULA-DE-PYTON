@@ -24,7 +24,7 @@ imposto = salarioBruto * (taxa / 100)
 salarioLiquido = salarioBruto - imposto
 
 #Mostra os resultados
-print("Imposto:", imposto)
-print("Salário líquido:", salarioLiquido)
+print(f"Imposto: {imposto}")
+print(f"Salário líquido: {salarioLiquido}")
 
 

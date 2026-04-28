@@ -25,4 +25,4 @@ elif 1 < dado < 20:
     print("Ataque Comum")
 
 #Mostra o dano final que causou
-print("Você causou", dano, "de dano")
+print(f"Você causou {dano} de dano")

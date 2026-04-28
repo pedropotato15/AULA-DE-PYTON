@@ -17,14 +17,16 @@ if categoriaCliente == 1:
 elif categoriaCliente == 2:
     #Cliente VIP tem 10% de desconto
     valorFinal = valorCompra - (valorCompra * 0.1)
+    desconto = "10%"
 
 elif categoriaCliente == 3:
     #Funcionário tem 20% de desconto
     valorFinal = valorCompra - (valorCompra * 0.2)
+    desconto = "20%"
 
 else:
     #Mostra se a categoria for inválida
     print("Categoria inválida.")
 
 #Mostra o valor final da compra
-print("O valor final de sua compra é:", valorFinal)
+print(f"Você tem {desconto} de desconto, o valor final de sua compra é de: R${valorFinal}")

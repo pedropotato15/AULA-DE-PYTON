@@ -26,24 +26,24 @@ if (operacao == "+") or (operacao == "-") or (operacao == "*") or (operacao == "
         
         #Verifica se o resultado é par ou não
         if resultado % 2 == 0:
-            parImpar = "é par,"
+            parImpar = "par"
         else:
-            parImpar = "não é par,"
+            parImpar = "ímpar"
         
         #Verifica se o resultado é positivo ou negativo
         if resultado >= 0:
-            positivoNegativo = "é positivo,"
+            positivoNegativo = "positivo"
         else:
-            positivoNegativo = "é negativo,"
+            positivoNegativo = "negativo"
         
         #Verifica se o resultado está dentro do intervalo entre -100 e 100
         if -100 <= resultado <= 100:
-            intervalo = "e está no intervalo entre -100 e 100,"
+            intervalo = "está no intervalo entre -100 e 100"
         else:
-            intervalo = "e não está no intervalo entre -100 e 100,"
+            intervalo = "não está no intervalo entre -100 e 100"
    
         #Mostra o resultado com as classificações
-        print("O resultado é", resultado, parImpar, positivoNegativo, intervalo)
+        print(f"O resultado é: {resultado}, é um número {parImpar}, {positivoNegativo}, e {intervalo}.")
 
 #Caso a operação for inválida
 else:

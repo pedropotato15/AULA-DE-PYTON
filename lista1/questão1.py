@@ -35,4 +35,4 @@ elif nota3 == nota1 and (nota3 and nota1) >= maiorNota:
     print("Empate na maior nota")
 
 #Mostra a maior nota encontrada
-print("Maior nota é:", maiorNota)
+print(f"Maior nota é: {maiorNota}")
