@@ -7,7 +7,7 @@ numero2 = float(input("Digite o 2° valor do cálculo: "))
 resultado = None
 
 #Verifica se a operação digitada é válida
-if operacao in ["+", "-", "*", "/"]:
+if (operacao == "+") or (operacao == "-") or (operacao == "*") or (operacao == "/"):
 
     #Trata a operação de divisão por zero
     if operacao == "/" and numero2 == 0:
