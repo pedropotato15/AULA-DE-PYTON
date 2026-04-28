@@ -26,6 +26,6 @@ diferencaProduto = (produtoCaro - produtoBarato)
 
 #Mostra os resultados depois do print separador
 print("=============================================================")
-print("Produto mais caro custa:", produtoCaro, "R$")
-print("Produto mais barato custa:", produtoBarato, "R$")
-print("Diferença entre os produtos é de", diferencaProduto, "R$")
+print(f"Produto mais caro custa: R${produtoCaro:.2f}")
+print(f"Produto mais barato custa: R${produtoBarato:.2f}")
+print(f"Diferença entre os produtos é de R${diferencaProduto:.2f}")
