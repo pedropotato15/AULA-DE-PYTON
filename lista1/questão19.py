@@ -7,7 +7,7 @@ faltas = int(input("Digite o numero de faltas: "))
 media = (nota1 + nota2) / 2
 
 #Mostra a média e as faltas
-print(f"Sua media é igual a {media}, e você tem {faltas} faltas")
+print(f"Sua media é igual a {media:.1f}, e você tem {faltas} faltas")
 
 #Verifica a situação do aluno
 if media >= 7 and faltas <= 10:

@@ -14,17 +14,17 @@ if conversao > 0 and conversao < 4:
     #Converte pra centímetros
     if conversao == 1:
         distancia = distancia * 100
-        print("Sua conversão é igual a", distancia, "cm")
+        print(f"Sua conversão é igual a {distancia} cm")
     
     # Converte pra milímetros
     elif conversao == 2:
         distancia = distancia * 1000
-        print("Sua conversão é igual a", distancia, "mm")
+        print(f"Sua conversão é igual a {distancia} mm")
     
     # Converte pra quilômetros
     elif conversao == 3:
         distancia = distancia / 1000
-        print("Sua conversão é igual a", distancia, "km")
+        print(f"Sua conversão é igual a {distancia} km")
 
 #Caso a opção for inválida
 else:

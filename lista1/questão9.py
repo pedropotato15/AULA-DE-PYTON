@@ -43,7 +43,7 @@ if (operacao == "+") or (operacao == "-") or (operacao == "*") or (operacao == "
             intervalo = "não está no intervalo entre -100 e 100"
    
         #Mostra o resultado com as classificações
-        print(f"O resultado é: {resultado}, é um número {parImpar}, {positivoNegativo}, e {intervalo}.")
+        print(f"O resultado é: {resultado:.2f}, é um número {parImpar}, {positivoNegativo}, e {intervalo}.")
 
 #Caso a operação for inválida
 else:

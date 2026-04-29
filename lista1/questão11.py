@@ -29,4 +29,4 @@ else:
     print("Categoria inválida.")
 
 #Mostra o valor final da compra
-print(f"Você tem {desconto} de desconto, o valor final de sua compra é de: R${valorFinal}")
+print(f"Você tem {desconto} de desconto, o valor final de sua compra é de: R${valorFinal:.2f}")
