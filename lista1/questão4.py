@@ -39,4 +39,4 @@ elif lugar1 == lugar2:
 
 #Caso for ao contrário mostra o vencedor com maior pontuação
 else:
-    print("1° Lugar venceu com", lugar1, "pontos")
+    print(f"1° Lugar venceu com {lugar1} pontos")
