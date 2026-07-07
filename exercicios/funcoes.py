@@ -24,6 +24,7 @@ def analise_num(numero):
         print("O numero está no conjunto")
     else:
         print("O numero nao está no conjunto")
+    
     return(analise_num)
 
 print(analise_num(0))
