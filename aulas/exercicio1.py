@@ -31,12 +31,12 @@ def menu():
             print(f"{tabuada} {sinal} {numero} = {resultado}")
             numero += 1
 
-entrada = []
-indice_inicio = 1
-indice_final = 2
+entrada = "abcc"
+letra_atual = 0
 
-while True:
-    entrada.append(indice_inicio)
-    print(entrada)
+for i in entrada:
+    
+    print
+    letra_atual += 1
     
 
