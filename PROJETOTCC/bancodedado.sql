@@ -2,7 +2,7 @@ CREATE TABLE usuario (
     userId INT PRIMARY KEY,
     userName VARCHAR (30) NOT NULL,
     userEmail TEXT NOT NULL,
-    userSenha VARCHAR (30),
+    userSenha VARCHAR (30) NOT NULL,
     userCargo VARCHAR (30)
 );
 

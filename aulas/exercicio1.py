@@ -36,7 +36,9 @@ letra_atual = 0
 
 for i in entrada:
     
-    print
+    print(entrada)
+    entrada - entrada[letra_atual]
+    
     letra_atual += 1
     
 
